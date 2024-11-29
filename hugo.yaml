@@ -1,0 +1,104 @@
+baseURL: "https://read.ninja/"
+title: Read Ninja
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Read Ninja
+  description: "亞馬遜暢銷書推薦、書評、閱讀心得"
+  keywords: ["亞馬遜暢銷書", "Read Ninja"]
+  author: 秩瑋
+  # author: ["Me", "You"] # multiple authors
+  images: ["/read-ninja.png"]
+  DateFormat: "2006/01/02"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/read-ninja.png"
+    favicon16x16: "/read-ninja.png"
+    favicon32x32: "/read-ninja.png"
+    apple_touch_icon: "/read-ninja.png"
+    safari_pinned_tab: "/read-ninja.png"
+
+  label:
+    text: "Read Ninja"
+    icon: /read-ninja.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "歡迎來到 Read Ninja"
+    Content: "這是一個分享亞馬遜暢銷書閱讀心得的部落格。"
+
+  analytics:
+    google:
+      SiteVerificationTag: ""
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
