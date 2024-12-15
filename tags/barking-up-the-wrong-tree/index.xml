@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Barking Up the Wrong Tree on Read Ninja</title>
-    <link>https://read.ninja/tags/barking-up-the-wrong-tree/</link>
+    <link>http://localhost:1313/tags/barking-up-the-wrong-tree/</link>
     <description>Recent content in Barking Up the Wrong Tree on Read Ninja</description>
     <image>
       <title>Read Ninja</title>
-      <url>https://read.ninja/read-ninja.png</url>
-      <link>https://read.ninja/read-ninja.png</link>
+      <url>http://localhost:1313/read-ninja.png</url>
+      <link>http://localhost:1313/read-ninja.png</link>
     </image>
     <generator>Hugo -- 0.136.5</generator>
     <language>en</language>
     <lastBuildDate>Tue, 12 Nov 2024 14:28:34 +0900</lastBuildDate>
-    <atom:link href="https://read.ninja/tags/barking-up-the-wrong-tree/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/barking-up-the-wrong-tree/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>人生最懊悔的五件事</title>
-      <link>https://read.ninja/blog/top-5-regrets/</link>
+      <link>http://localhost:1313/blog/top-5-regrets/</link>
       <pubDate>Tue, 12 Nov 2024 14:28:34 +0900</pubDate>
-      <guid>https://read.ninja/blog/top-5-regrets/</guid>
+      <guid>http://localhost:1313/blog/top-5-regrets/</guid>
       <description>第一名：我希望我有勇氣活我自己想要的生活，而不是別人對我期望的生活</description>
     </item>
   </channel>
