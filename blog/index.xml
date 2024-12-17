@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Read Ninja</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://read.ninja/blog/</link>
     <description>Recent content in Blogs on Read Ninja</description>
     <image>
       <title>Read Ninja</title>
-      <url>http://localhost:1313/read-ninja.png</url>
-      <link>http://localhost:1313/read-ninja.png</link>
+      <url>https://read.ninja/read-ninja.png</url>
+      <link>https://read.ninja/read-ninja.png</link>
     </image>
     <generator>Hugo -- 0.136.5</generator>
     <language>en</language>
     <lastBuildDate>Sat, 14 Dec 2024 17:30:53 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://read.ninja/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FBI談判框架</title>
-      <link>http://localhost:1313/blog/negotiation-as-if-your-life-depended-on-it/</link>
+      <link>https://read.ninja/blog/negotiation-as-if-your-life-depended-on-it/</link>
       <pubDate>Sat, 14 Dec 2024 17:30:53 +0800</pubDate>
-      <guid>http://localhost:1313/blog/negotiation-as-if-your-life-depended-on-it/</guid>
+      <guid>https://read.ninja/blog/negotiation-as-if-your-life-depended-on-it/</guid>
       <description>用「我要如何做到？」的句型，讓對方解決問題。</description>
     </item>
     <item>
       <title>滿手爛牌起手的壯闊人生</title>
-      <link>http://localhost:1313/blog/race-with-ruck/</link>
+      <link>https://read.ninja/blog/race-with-ruck/</link>
       <pubDate>Tue, 26 Nov 2024 23:17:35 +0900</pubDate>
-      <guid>http://localhost:1313/blog/race-with-ruck/</guid>
+      <guid>https://read.ninja/blog/race-with-ruck/</guid>
       <description>人生是跨過的障礙的總和。背著 50 磅的背包前進會比沒負重的人辛苦，但不代表過程會比較不精采。</description>
     </item>
     <item>
       <title>人生最懊悔的五件事</title>
-      <link>http://localhost:1313/blog/top-5-regrets/</link>
+      <link>https://read.ninja/blog/top-5-regrets/</link>
       <pubDate>Tue, 12 Nov 2024 14:28:34 +0900</pubDate>
-      <guid>http://localhost:1313/blog/top-5-regrets/</guid>
+      <guid>https://read.ninja/blog/top-5-regrets/</guid>
       <description>第一名：我希望我有勇氣活我自己想要的生活，而不是別人對我期望的生活</description>
     </item>
   </channel>
